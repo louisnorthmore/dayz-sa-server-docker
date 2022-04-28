@@ -20,7 +20,7 @@ RUN apt-get update && \
 ENV USER dayz
 ENV BASE_DIR /dayz
 ENV HOME ${BASE_DIR}/home
-ENV SERVER_DIR ${BASE_DIR}/server
+ENV SERVER_DIR "${BASE_DIR}/home/.steam/steamapps/common/DayZ Server Exp"
 ENV STEAM_CMD_USER anonymous
 ENV STEAM_CMD_PASSWORD=""
 
