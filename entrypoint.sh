@@ -3,8 +3,8 @@
 
 function updateGame() {
     steamcmd \
-        +login ${STEAM_CMD_USER} ${STEAM_CMD_PASSWORD} \
         +force_install_dir ${SERVER_DIR} \
+        +login ${STEAM_CMD_USER} ${STEAM_CMD_PASSWORD} \        
         +app_update ${APP_ID} \
         ${EXTRA_UPDATE_ARGS} \
         +quit
